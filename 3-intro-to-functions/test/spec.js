@@ -25,5 +25,30 @@ describe('scope and functions', function() {
     it('should assign a function to the variable add', function() {
       expect(typeof add).to.equal('function');
     });
+
+    it('add should take two parameters, and return the sum of them', function() {
+      expect(add(2, 2)).to.equal(4);
+    });
+
+    it('the add function should have a variable called scope1 with a value of 12', function() {
+      expect(window.scope1).to.not.equal(scope1);
+    });
+
+    it('create a named function called square', function() {
+      expect(typeof square).to.equal('function');
+    });
+
+    it('the square function should take a number, and return that number squared (multiplied by itself)', function() {
+      expect(square(9)).to.equal(81);
+    });
+
+    it('should have a named function called thrice', function() {
+      expect(typeof thrice).to.equal('function');
+    });
+
+    it('function thrice should return a local variable called a, that has a value of 10', function() {
+      expect(thrice()).to.equal(10);
+    });
   });
+
 });
