@@ -49,6 +49,20 @@ describe('scope and functions', function() {
     it('function thrice should return a local variable called a, that has a value of 10', function() {
       expect(thrice()).to.equal(10);
     });
+
+    it('variable a should be in the local scope of the fuction thrice, and not available in the global scope', function() {
+      expect(a).to.equal(null);
+    });
+
+    it('should have a function expression assigned to a variable, myFunc, which returns your name and your partner\'s names in a string', function() {
+      expect(typeof myFunc()).to.equal('string');
+    });
+      
+    it('should have a function expression assigned to a variable, myFunc, which returns your name and your partner\'s names in a string', function() {
+      expect(myFunc().length).to.not.equal(0);
+    });
+        
   });
+
 
 });
