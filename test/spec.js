@@ -222,7 +222,7 @@ describe('flow and conditionals', function() {
   describe('if, if else, and else', function() {
 
     
-    it('should have a variable called that compares flowB strictly equal to flowC', function() {
+    it('should have a variable called flowAnswerB that compares flowB strictly equal to flowC', function() {
       expect(flowAnswerB).to.equal(undefined);
     });
 
@@ -230,7 +230,7 @@ describe('flow and conditionals', function() {
       expect(flowAnswerC).to.not.equal(null);
     });
 
-    it('flowAnswerC should should hold the result of comparing if flowB and flowC are equal', function() {
+    it('flowAnswerC should hold the result of comparing if flowB and flowC are equal', function() {
       expect(flowAnswerC).to.equal(true);
     })
 
@@ -350,7 +350,35 @@ describe('flow and conditionals', function() {
 
   describe('switch statements', function() {
 
+    it('should have a variable switch1 with a value of 1', function() {
+      expect(switch1).to.equal(1);
+    });
+
+    it('should have a variable switch2 with a value of 2', function() {
+      expect(switch2).to.equal(2);
+    });
+
+    it('should have a variable switch3 with a value of 3', function() {
+      expect(switch3).to.equal(3);
+    });
+
+    it('should have a variable switch4 with a value of 4', function() {
+      expect(switch4).to.equal(4);
+    });
+
+    it('should have a variable switch5 with a value derived from comparing switch3 >= switch1', function() {
+      expect(switch5).to.equal(true);
+    });
+
+    it('should have a variable switch6 with a value derived from finding the remainder of switch4 divided by switch3', function() {
+      expect(switch6).to.equal(1);
+    });
+
+    it('should have a variable switch7 that gets a value from comparing switch6 equals true', function() {
+      expect(switch7).to.equal(true);
+    });
   });
+
 });
 
 
