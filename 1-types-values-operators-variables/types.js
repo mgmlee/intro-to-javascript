@@ -100,7 +100,7 @@ ourTypes = { //This is a single line comment.
 
   aString: '0',
 
-  aNumber: 5555
+  aNumber: 5555// somehting added for commiiting's sake
 };
 var example;
 example = 'Javascript is fun!';
