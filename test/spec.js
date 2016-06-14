@@ -2,6 +2,7 @@ describe('types, values, operators and variables', function() {
   var expect = chai.expect;
 
   describe('types and values', function() {
+
     // This first test will pass be default, so you can see what a passing test looks like.
     it('should exist', function() {
       expect(typeof ourTypes).to.equal('object');
@@ -374,8 +375,28 @@ describe('flow and conditionals', function() {
       expect(switch6).to.equal(1);
     });
 
-    it('should have a variable switch7 that gets a value from comparing switch6 equals true', function() {
+    it('should have a variable switch7 that gets a value from comparing switch6 equals true or false by default', function() {
       expect(switch7).to.equal(true);
+    });
+
+    it('switchExample should have a value of a string that says \'true\'', function() {
+      expect(switchExample).to.equal('true');
+    });
+
+    it('switchA should have any string as its value', function() {
+        expect(typeof switchA).to.equal('string');
+    });
+
+    it('switchB should have a value of false', function() {
+      expect(switchB).to.equal(false);
+    });
+
+    it('switchC should have a value of true', function() {
+      expect(switchC).to.equal(true);
+    });
+
+    it('switchD should have a value of -1', function() {
+      expect(switchD).to.equal(-1);
     });
   });
 

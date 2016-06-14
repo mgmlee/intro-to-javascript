@@ -20,8 +20,7 @@
 // Create the variables that the test is looking for.
 // When there are multiple cases to check, use a switch statement instead of nesting if/else if/if!
 
-// Now that you've defined switch1 through switch3
-// let's use those switch statements!
+// Now let's use those switch statements!
 // Want an example to check? Got you covered!
 /*  
   First, here's the syntax
@@ -71,13 +70,16 @@
 
 */
 
-// Ok, example out of the way. Let's start small, 
-// just declare the variables that the tests are looking for, and assign them the appropriate values.
-
-
-
 // Before we start writing switch statements, let's talk about one of the downsides of using them.
 // You can't use comparison operators!
 // As in, you can't have a case (5 > 3)
-// You have to expressly state the value that you're testing for in a case.
-// Otherwise, it won't even check that condition!
+// You have to expressly state the value that you're testing for in a cases.
+
+// For this section, be creative.
+// Check the tests to find out what variables are being tested, and what value they need to have.
+// Use switch statements, check whatever conditions you'd like.
+// Make sure you assign the correct variable the correct value!
+
+
+
+
