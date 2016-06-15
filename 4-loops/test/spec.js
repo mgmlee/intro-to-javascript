@@ -46,10 +46,10 @@ describe('advanced types', function() {
     });
   });
 
-  describe('objects, part one', function () {
+  describe('creatig objects', function () {
 
     it('should be an object with the correct number of key value pairs', function () {
-      expect(Object.keys(myObj).length).to.equal(5);
+      expect(Object.keys(myObj).length).to.equal(6);
     });
 
     it('myName should hold a string', function () {
@@ -74,6 +74,41 @@ describe('advanced types', function() {
 
     it('myMusic should have four items in it', function () {
       expect(myObj.myMusic.length).to.equal(4);
+    });
+
+    it('myFunc should be a function', function () {
+      expect(typeof myObj.myFunc).to.equal('function');
+    });
+
+    it('myFunc should return true when invoked', function () {
+      expect(myObj.myFunc()).to.equal(true);
+    });
+  });
+
+  describe('accessing values in objects', function () {
+
+    it('should access myCity from myObj', function () {
+      expect(myCity).to.equal(myObj.myCity);
+    });
+
+    it('should access myName from myObj', function () {
+      expect(myName).to.equal(myObj.myName);
+    });
+
+    it('should access myAge from myObj', function () {
+      expect(myAge).to.equal(myObj.myAge);
+    });
+
+    it('should access myMusic from myObj', function () {
+      expect(myMusic).to.equal(myObj.myMusic);
+    });
+
+    it('should access myFunc from myObj', function () {
+      expect(myFunc).to.deep.equal(myObj.myFunc);
+    });
+
+    it('myFunc should return the same value as the method from myObj', function () {
+      expect(myFunc()).to.equal(myObj.myFunc());
     });
   });
 

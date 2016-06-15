@@ -101,7 +101,50 @@ var val7;
 // myAge with a value of your age
 //myTruth with a boolean (do you like js so far?)
 // myMusic with a value of an array that has your four favorite bands as values.
+// myFunc with a value of a function, which when invoked returns true.
 
+
+
+
+
+// Did you remember your semi-colon at the end of the object?
+/*
+
+  var anObj = {
+    key: 'value'
+  };  // <---- That semi-colon right there!
+
+*/
+
+// Well done! We are going into the realm of some really tricky stuff, so don't worry if it's taking a little longer to get this section down.
+/*
+  Now, let's look at how to access values from an object.
+
+  Here's the link again for reference.
+  LINK
+
+  Essentially there are two ways to access values in an object.
+  The first is "dot notation" :
+
+  myObj.myName // would return that string
+
+  The second is "bracket notation" :
+
+  myObj['myFunc'] // would return the myFunc method (function on an object).
+*/
+
+// Try using both methods to access the values from myObj.
+// Discuss with your partner which method you prefer and why.
+// For this section, assign a variable with the same name as a key from myObj the same value from myObj.
+// So to use the example object from above, do something like:
+
+// var key = anObj.key;
+
+// and not like: 
+
+// var key = 'value';
+
+// Let the computer do the work for you!
 
 
 
