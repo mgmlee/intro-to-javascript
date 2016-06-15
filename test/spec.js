@@ -384,7 +384,7 @@ describe('flow and conditionals', function() {
     });
 
     it('switchA should have any string as its value', function() {
-        expect(typeof switchA).to.equal('string');
+      expect(typeof switchA).to.equal('string');
     });
 
     it('switchB should have a value of false', function() {
