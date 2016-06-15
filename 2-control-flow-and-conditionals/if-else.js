@@ -83,32 +83,52 @@ if (flowC >= flowB) {
 }
 
 // create a variable flowAnswerB
+var flowAnswerB;
 
 // if flowB is strictly equal (the same value and type) to flowD assign flowAnswerB true.
-
+if (flowB ===flowD) {
+  flowAnswerB = true;
+}
 
 // create a variable flowAnswerC
+var flowAnswerC;
 
 // if flowB equals (in a truthy kind of way) flowD assign flowAnswerC true
-
+if (flowB==flowD){
+  flowAnswerC = true;
+}
 // create a variable called flowAnswerD.
+var flowAnswerD;
+// if flowE plus flowG is bigger than flowG plus flowF, 
+//assign flowAnswerD the value of flowG plus flowE. 
+//Otherwise assign it the value of flowG plus flowF.
 
-// if flowE plus flowG is bigger than flowG plus flowF, assign flowAnswerD the value of flowG plus flowE. Otherwise assign it the value of flowG plus flowF.
+if ((flowE + flowG) > (flowG + flowF)) {
+  flowAnswerD = (flowG + flowE);
+} else {
+  flowAnswerD = (flowG + flowF);
+}
 
 // create a variable called flowAnswerE.
-
+var flowAnswerE;
 // if flowA is equal to flowE assign flowAnswerE false. Otherwise assign it true.
-
+if (flowA = flowE) {
+  flowAnswerE = false;
+} else {
+  flowAnswerE = true;
+}
 // create a variable called flowAnswerF. 
-
+var flowAnswerF;
 // assign flowAnswerF the value of flowE multiplied by flowF.
-
+var flowAnswerF = (flowE * flowF);
 // create a variable called flowAnswerG
-
+var flowAnswerG;
 // flowAnswerG should hold the greater of flowAnswerF, and flowG.
 // if they have the same value, then flowAnswerG should have a value of true.
-
-
+var flowAnswerG > flowAnswerF, flowG;
+if (flowAnswerG = flowG) {
+  flowAnswerG = true;
+}
 // create a variable called flowAnswerH.
 
 // assign it the value of flowG * negative one.
