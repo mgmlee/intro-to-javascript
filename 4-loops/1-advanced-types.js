@@ -3,7 +3,8 @@
   The first is called an array in javascript, it may have another name in other languages.
 
   An array is a list of values seperated by commas wrapped in square brackets.
-  LINK
+  
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
   So there are two ways to create an array. Try using them both in this section. You can look into constructor functions on your own, they are outside of the scope of this class.
 
@@ -65,10 +66,10 @@ var val7;
   In this next section, we are going to talk about one of the most important types in JS.
   Objects.
 
-  DEFINITION
-  LINK
-
   An object is a collection of key value pairs wrapped in curly braces. 
+
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
   (They go by other names in other languages.)
   Let's see an example
 
@@ -120,8 +121,9 @@ var val7;
 /*
   Now, let's look at how to access values from an object.
 
-  Here's the link again for reference.
-  LINK
+  Here's a link from w3schools, in case MDN was a bit difficult to digest.
+
+  http://www.w3schools.com/js/js_objects.asp
 
   Essentially there are two ways to access values in an object.
   The first is "dot notation" :
@@ -133,7 +135,7 @@ var val7;
   myObj['myFunc'] // would return the myFunc method (function on an object).
 */
 
-// Try using both methods to access the values from myObj.
+// Try using both ways to access the values from myObj.
 // Discuss with your partner which method you prefer and why.
 // For this section, assign a variable with the same name as a key from myObj the same value from myObj.
 // So to use the example object from above, do something like:
@@ -150,6 +152,14 @@ var val7;
 
 
 
+/*
+  Ok, so it was briefly touched on in the last section. A function within an object can be called a method.
+  Why?
+  Because.... (get ready for it)
+  Everything in js is an object!
+  Wait, didn't we just spend time going over all of these data types? Then how is everything an Object? 
+  Read about it via one of the links above, or wait, and we'll go into it after we discuss loops!
+*/
 
 
 
