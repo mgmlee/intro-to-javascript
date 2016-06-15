@@ -32,6 +32,49 @@ describe('advanced types', function() {
     it('should assign the 13th value from testString to  val4', function() {
       expect(val4).to.equal('r');
     });
+
+    it('assign the 5th value from testArray to val5', function() {
+      expect(val5).to.equal(4);
+    });
+
+    it('assign the value at index 3 from testArray to val6', function() {
+      expect(val6).to.equal('d');
+    });
+
+    it('assign the value at index 6 from testString to val7', function () {
+      expect(val7).to.equal(' ');
+    });
+  });
+
+  describe('objects, part one', function () {
+
+    it('should be an object with the correct number of key value pairs', function () {
+      expect(Object.keys(myObj).length).to.equal(5);
+    });
+
+    it('myName should hold a string', function () {
+      expect(typeof myObj.myName).to.equal('string');
+    });
+
+    it('myCity should hold a string', function () {
+      expect(typeof myObj.myCity).to.equal('string');
+    });
+
+    it('myAge should have a number', function () {
+      expect(typeof myObj.myAge).to.equal('number');
+    });
+
+    it('myTruth should hold a boolean', function () {
+      expect(typeof myObj.myTruth).to.equal('boolean');
+    });
+
+    it('myMusic should be an array', function () {
+      expect(Array.isArray(myObj.myMusic)).to.equal(true);
+    });
+
+    it('myMusic should have four items in it', function () {
+      expect(myObj.myMusic.length).to.equal(4);
+    });
   });
 
 });

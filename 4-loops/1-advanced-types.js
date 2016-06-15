@@ -57,12 +57,50 @@ var val2;
 var val3;
 var val4;
 var val5;
+var val6;
+var val7;
 
 
+/*
+  In this next section, we are going to talk about one of the most important types in JS.
+  Objects.
 
+  DEFINITION
+  LINK
 
+  An object is a collection of key value pairs wrapped in curly braces. 
+  (They go by other names in other languages.)
+  Let's see an example
 
+  var obj = {
+    first: 1,
+    second: 2,
+    third: 3,
+    aString: 'this is a string in an object',
+    aBoolean: true,
+    anotherBoolean: false,
+    thisOneIsNull: null,
+    thisIsUndefined: undefined,
+    anArray: ['a', 'b', 3, 5, true, null],
+    aFunc: function() {
+      return 'this is a method on the obj object';
+    }
+  };
 
+  There is a lot going on in our object, yeah?
+  Notice that the key is on the left side of the colon, and the value is on the right side.
+  If there is more than one key/value pair, they are seperated by commas.
+  Notice that the last value doesn't have a comma trailing it, as there isn't another following pair!
+  Any data type can be held in an object (or an array, for that matter!).
+*/
+
+// For this first section on objects, assign a variable called myObj an object.
+// Give myObj the following keys:
+// myName with a value of a string with your name
+// myCity with a value of a string with your city
+// myAge with a value of your age
+//myTruth with a boolean (do you like js so far?)
+// myMusic with a value of an array that has your four favorite bands as values.
 
 
 
