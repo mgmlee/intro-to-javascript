@@ -1,3 +1,5 @@
+Eror to hapn
+
 /*
   Alright, let's talk functions. So many things to go over here!
 
