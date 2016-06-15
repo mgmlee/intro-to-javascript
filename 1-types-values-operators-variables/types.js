@@ -174,15 +174,15 @@ var fourthResult = num1<=numberAsString;
 // The first one is done for you as an example.
 var a = true; // (10 * 10) == '100'
 
-var b = true; // 2 * (10/2) + 2=='12';
+var b = 12; // 2 * (10/2) + 2='12';
 
-var c; // 8 + 1 * 5 - 4 / 2 <= 9;
+var c=false; // 8 + 1 * 5 - 4 / 2 <= 9;
 
-var d; // true === 'true'
+var d=false; // true === 'true'
 
-var e; // 1 == true
+var e=true; // 1 == true
 
-var f; // 1 === true
+var f=false; // 1 === true
 
 
 
