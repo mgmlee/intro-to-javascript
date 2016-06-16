@@ -2,6 +2,7 @@ describe('types, values, operators and variables', function() {
   var expect = chai.expect;
 
   describe('types and values', function() {
+
     // This first test will pass be default, so you can see what a passing test looks like.
     it('should exist', function() {
       expect(typeof ourTypes).to.equal('object');
@@ -222,7 +223,11 @@ describe('flow and conditionals', function() {
   describe('if, if else, and else', function() {
 
     
+<<<<<<< HEAD
     it('should have a variable called that compares flowAnswerB strictly equal to flowC', function() {
+=======
+    it('should have a variable called flowAnswerB that compares flowB strictly equal to flowC', function() {
+>>>>>>> b9ad770c33338725337e9e3991ea5d7bbd47baa8
       expect(flowAnswerB).to.equal(undefined);
     });
 
@@ -230,7 +235,7 @@ describe('flow and conditionals', function() {
       expect(flowAnswerC).to.not.equal(null);
     });
 
-    it('flowAnswerC should should hold the result of comparing if flowB and flowC are equal', function() {
+    it('flowAnswerC should hold the result of comparing if flowB and flowC are equal', function() {
       expect(flowAnswerC).to.equal(true);
     })
 
@@ -350,9 +355,56 @@ describe('flow and conditionals', function() {
 
   describe('switch statements', function() {
 
-  });
-});
+    it('should have a variable switch1 with a value of 1', function() {
+      expect(switch1).to.equal(1);
+    });
 
+    it('should have a variable switch2 with a value of 2', function() {
+      expect(switch2).to.equal(2);
+    });
+
+    it('should have a variable switch3 with a value of 3', function() {
+      expect(switch3).to.equal(3);
+    });
+
+    it('should have a variable switch4 with a value of 4', function() {
+      expect(switch4).to.equal(4);
+    });
+
+    it('should have a variable switch5 with a value derived from comparing switch3 >= switch1', function() {
+      expect(switch5).to.equal(true);
+    });
+
+    it('should have a variable switch6 with a value derived from finding the remainder of switch4 divided by switch3', function() {
+      expect(switch6).to.equal(1);
+    });
+
+    it('should have a variable switch7 that gets a value from comparing switch6 equals true or false by default', function() {
+      expect(switch7).to.equal(true);
+    });
+
+    it('switchExample should have a value of a string that says \'true\'', function() {
+      expect(switchExample).to.equal('true');
+    });
+
+    it('switchA should have any string as its value', function() {
+      expect(typeof switchA).to.equal('string');
+    });
+
+    it('switchB should have a value of false', function() {
+      expect(switchB).to.equal(false);
+    });
+
+    it('switchC should have a value of true', function() {
+      expect(switchC).to.equal(true);
+    });
+
+    it('switchD should have a value of -1', function() {
+      expect(switchD).to.equal(-1);
+    });
+  });
+
+});
 
 
 
