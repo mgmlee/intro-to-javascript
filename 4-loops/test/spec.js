@@ -46,7 +46,7 @@ describe('advanced types', function() {
     });
   });
 
-  describe('creatig objects', function () {
+  describe('creating objects', function () {
 
     it('should be an object with the correct number of key value pairs', function () {
       expect(Object.keys(myObj).length).to.equal(6);
