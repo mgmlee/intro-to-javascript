@@ -57,7 +57,7 @@
   Remember when we talked about truthy vs true, and falsy vs false in class?
   Discuss it with your partner, and make sure you understand the difference.
 
-  How's about an example you were wondering, right?
+  How about an example you were wondering, right?
   Well here's one now!
 
   var thisIsTrue = true;
@@ -83,38 +83,55 @@
 
 // declare a variable called lOne
 
-// assign lOne a value of true
+var lOne;
 
+// assign lOne a value of true
+var lOne = true;
 // write an if/else statement that declares a variable named lAOne and assigns it a value of 
 // true if lOne is not true, and false otherwise.
-
+var lAOne;
+if (!lOne) {
+  lAOne =true;
+} else {
+  lAOne =false;
+}
 
 // declare a variable called lTwo
+var lTwo;
 
-// lTwo should get true if lOne or LAOne is true
-
+// lTwo should get true if lOne or lAOne is true
+if (lOne || lAOne) {
+  lTwo = true;
+}
 // declare a variable called lThree
-
+var lThree;
 // Assign lThree a value of 100
-
+lThree = 100;
 // declare a variable called lATwo.
-
+var lATwo;
 // if lThree is less than lOne and also less than LAOne lATwo should get true. Otherwise lATwo should get false.
-
+if (lThree < lOne && lThree < LAone){
+  lATwo = true;
+} else {lATwo = false;}
 
 // declare a variable called lFour
-
+var lFour;
 // Still using if/else if/else statements, assign lFour a value of a string with the word true in it 
 // if either lATwo or lOne is true.
 // if both are false, assign lFour a value of a string with the word false in it.
-
+if (lATwo || lOne){
+  lFour = 'true';
+} else {lFour = 'false';}
 
 // declare a variable called lFive
+var lFive;
 // this one will be tricky. Ready?
 // write an if statement that checks if lFive is not equal to undefined.
 // If lFive is not equal to undefined, then assign it the number 5.
 // If lFive is undefined, then assign it the number 10.
-
+if (lFive != undefined){
+  lFive = 5;
+} else {lFive = 10;}
 
 //Crazy how that worked, right? Well done!
 // You just dynamically assigned a variable a value
@@ -123,6 +140,7 @@
 
 
 // declare a variable called lSix
+var lSix;
 // here are your conditions to check (I'm leaving out the words if, so as not to give you an extra hint :)
 // Remember, you can group conditions to check within the parentheses using paretheses. For example:
 /* 
@@ -137,19 +155,30 @@
 */
 // --------------------- End of example
 // does lATwo equal lThree?
-  // then assign lSix a value of 23
-// does lOne strictly equal lAOne?
-  // then assign lSix a value of 11
-// does lTwo equal lFour?
-  // then assign lSix a value of 24
-// does lFour strictly equal lOne?
-  // then assign lSix a value of 41
-// does lFive + 90 equal 110?
-  // then assign lSix a value of 110
-// is 24 + 26 greater than or equal to 50 and does lOne equal false?
-  // then assign lSix a value of 5050
-// is 25 + 25 equal to 50 and does lAOne not equal true?
-  // then assign lSix a value of 252550
+// if (lATwo = lThree) {lSix =23;}
+//   // then assign lSix a value of 23
+
+// // does lOne strictly equal lAOne?
+//   // then assign lSix a value of 11
+//   if (lOne == lAOne) {lSix = 11;}
+// // does lTwo equal lFour?
+//   // then assign lSix a value of 24
+//   if (lTwo = lFour) {lSix = 24;}
+// // does lFour strictly equal lOne?
+//   // then assign lSix a value of 41
+//   if (lFour == lOne){lSix = 41;}
+// // does lFive + 90 equal 110?
+//   // then assign lSix a value of 110
+  if (lFive + 90 == 110){lSix =110;}
+// // is 24 + 26 greater than or equal to 50 and does lOne equal false?
+// //   // then assign lSix a value of 5050
+// if((24 + 26 >= 50) && lOne = false){
+//   lSix = 5050;
+// }
+// // is 25 + 25 equal to 50 and does lAOne not equal true?
+//   // then assign lSix a value of 252550
+
+  if (25 + 25 == 50 && lAOne != true) {lSix = 252550;}
 // otherwise assign lSix a value of 1010
 
 

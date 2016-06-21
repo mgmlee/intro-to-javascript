@@ -223,11 +223,11 @@ describe('flow and conditionals', function() {
   describe('if, if else, and else', function() {
 
     
-<<<<<<< HEAD
-    it('should have a variable called that compares flowAnswerB strictly equal to flowC', function() {
-=======
-    it('should have a variable called flowAnswerB that compares flowB strictly equal to flowC', function() {
->>>>>>> b9ad770c33338725337e9e3991ea5d7bbd47baa8
+//<<<<<<< HEAD
+  //  it('should have a variable called that compares flowAnswerB strictly equal to flowC', function() {
+//=======
+//    it('should have a variable called flowAnswerB that compares flowB strictly equal to flowC', function() {
+//>>>>>>> b9ad770c33338725337e9e3991ea5d7bbd47baa8
       expect(flowAnswerB).to.equal(undefined);
     });
 
@@ -290,7 +290,7 @@ describe('flow and conditionals', function() {
   });
 
   describe('logical operators', function() {
-
+    var expect = chai.expect;
     it('should have a variable named lOne', function() {
       expect(lOne).to.not.equal(null);
     });
@@ -354,7 +354,7 @@ describe('flow and conditionals', function() {
   });
 
   describe('switch statements', function() {
-
+    var expect = chai.expect;
     it('should have a variable switch1 with a value of 1', function() {
       expect(switch1).to.equal(1);
     });
@@ -404,7 +404,7 @@ describe('flow and conditionals', function() {
     });
   });
 
-});
+
 
 
 
