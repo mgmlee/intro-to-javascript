@@ -12,7 +12,7 @@ describe('scope and functions', function() {
     });
 
     it('should have a global variable called scope2', function() {
-      expect(window.scope2).to.not.equal(null || undefined);
+      expect(window.scope2).to.equal(null || undefined);
     });
 
     it('should have a global vaiable called scope3 with a value of 12', function() {

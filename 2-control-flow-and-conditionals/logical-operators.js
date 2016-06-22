@@ -155,26 +155,26 @@ var lSix;
 */
 // --------------------- End of example
 // does lATwo equal lThree?
-// if (lATwo = lThree) {lSix =23;}
+if (lATwo == lThree) {lSix =23;}
 //   // then assign lSix a value of 23
 
 // // does lOne strictly equal lAOne?
 //   // then assign lSix a value of 11
-//   if (lOne == lAOne) {lSix = 11;}
+  if (lOne === lAOne) {lSix = 11;}
 // // does lTwo equal lFour?
 //   // then assign lSix a value of 24
-//   if (lTwo = lFour) {lSix = 24;}
+  if (lTwo == lFour) {lSix = 24;}
 // // does lFour strictly equal lOne?
 //   // then assign lSix a value of 41
-//   if (lFour == lOne){lSix = 41;}
+  if (lFour === lOne){lSix = 41;}
 // // does lFive + 90 equal 110?
 //   // then assign lSix a value of 110
   if (lFive + 90 == 110){lSix =110;}
 // // is 24 + 26 greater than or equal to 50 and does lOne equal false?
 // //   // then assign lSix a value of 5050
-// if((24 + 26 >= 50) && lOne = false){
-//   lSix = 5050;
-// }
+if((24 + 26 >= 50) && !lOne){
+  lSix = 5050;
+}
 // // is 25 + 25 equal to 50 and does lAOne not equal true?
 //   // then assign lSix a value of 252550
 

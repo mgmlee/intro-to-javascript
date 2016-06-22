@@ -40,7 +40,8 @@
 /*
   And here it is in practice:
 
-  Assume the prompt asks for a string that either says the value spelled out as a word or if the number is greater than 5 then the string should say larger than 5,
+  Assume the prompt asks for a string that either says the value spelled out as a word 
+  or if the number is greater than 5 then the string should say larger than 5,
   and we are checking the value of a and assigning our 
   string to a variable called s.
   This is how I would do it.
@@ -80,6 +81,31 @@
 // Use switch statements, check whatever conditions you'd like.
 // Make sure you assign the correct variable the correct value!
 
+var switch1 = 1;
 
+var switch2 = 2;
+
+var switch3 = 3;
+
+var switch4 = 4;
+
+var switch5 = (switch3 >= switch1);
+
+var switch6 = switch4%switch3;
+
+var switch7;
+if (switch6==true) {
+  switch7 = true
+} else {switch7 = false};
+
+switchExample ='true';
+
+switchA = 'string';
+
+switchB = false;
+
+switchC = true;
+
+switchD = -1;
 
 
